@@ -1,0 +1,10 @@
+[package]
+name = "concurrent-hash-map"
+version = "0.1.0"
+authors = ["kuzyanov <stepan.kuzyanov@gmail.com>"]
+edition = "2018"
+description = "Concurrent hash map, based on open addressing algorithm, used RwLocks for thread safety."
+license = "MIT"
+
+[dependencies]
+owning_ref = "0.4.0"
